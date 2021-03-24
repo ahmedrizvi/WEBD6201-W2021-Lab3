@@ -435,7 +435,6 @@
         case "contact": return displayContact;
         case "contact-list": return displayContactList;
         case "edit": return displayEdit;
-        case "task-list": return DisplayTaskList;
         case "login": return displayLogin;
         case "register": return displayRegister;
         case "404": return display404;
@@ -483,9 +482,6 @@
      */
     function DisplayTaskList()
     {
-        // prevent non-signed in users from accessing this page
-        authGuard();
-
         let messageArea = $("#messageArea");
         messageArea.hide();
         let taskInput = $("#taskTextInput");

@@ -483,8 +483,7 @@
      */
     function DisplayTaskList()
     {
-        // prevent non-signed in users from accessing this page
-        authGuard();
+        // only allow signed in users to access this page
 
         let messageArea = $("#messageArea");
         messageArea.hide();
