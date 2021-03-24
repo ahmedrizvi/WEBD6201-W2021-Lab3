@@ -403,6 +403,8 @@
       <li class="nav-item">
             <a id="task-list" class="nav-link" aria-current="page"><i class="fas fa-sign-in-alt"></i> Task List</a>
       </li>`).insertBefore("#loginListItem");
+
+        $(`
       }
       else
       {
